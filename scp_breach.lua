@@ -1,6 +1,8 @@
 -- Example breach positions and timers
+-- To obtain the positions you need to push F10 or Escape to open the console then type `getpos`, and remember the Vector number MUST BE INTS / WHOLE NUMBERS NO DECIMALS!!!
 local breachPositions = {
-    [TEAM_173] = Vector(-5, 334, -83), -- Replace with actual positions, ensure no trailing comma
+    -- Vector(X = left to right, Y = forward and back, Z = Up and Down)
+    [TEAM_173] = Vector(-5, 334, -83), -- Replace with actual positions
     -- Add other SCP teams and their positions here
 }
 
