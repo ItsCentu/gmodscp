@@ -40,6 +40,24 @@ This repository contains two scripts for Garry's Mod servers related to SCP (Sec
 - Use the `/stopbreach` command to stop an ongoing breach.
 - Breach positions and cooldown times can be customized in the script file (`scp_breach.lua`).
 
+  ## SCP Name Change Script
+
+### Features
+- Automatically change a player's roleplay name when they switch to specific SCP teams.
+- Restore the player's original name when they switch back to a different team.
+- Configurable team IDs and corresponding names.
+
+### Installation
+1. Ensure you have Garry's Mod installed on your server.
+2. Download or clone this repository.
+3. Place the `sv_namechange.lua` script in your server's `garrysmod/lua/autorun/server/` directory.
+4. Restart your server or execute the script manually to load it.
+
+### Usage
+- The script automatically changes the player's roleplay name to the specified name when they switch to a specific team.
+- It restores the player's original name when they switch back to a different team.
+- Team IDs and corresponding names can be customized in the script file (`sv_namechange.lua`).
+
 ## License
 These projects are licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
